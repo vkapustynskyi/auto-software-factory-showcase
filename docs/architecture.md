@@ -1,8 +1,9 @@
 # Architecture
 
-Software Factory is a set of GitHub Actions workflows plus a small set of trusted scripts. One run turns
-one labelled issue into at most one pull request. Every job is a separate runner with its own token.
-Every hand-over is a hash-pinned artifact or a job output, and agent-made content is only ever data.
+Auto Software Factory is a set of GitHub Actions workflows plus a small set of trusted scripts. One run
+turns one labelled issue into at most one pull request. Every job is a separate runner with its own
+token. Every hand-over is a hash-pinned artifact or a job output, and agent-made content is only ever
+data.
 
 ## One run, step by step
 
