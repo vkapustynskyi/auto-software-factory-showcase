@@ -1,8 +1,8 @@
-# Software Factory
+# Auto Software Factory
 
 **An issue goes in, a tested pull request comes out.**
 
-Software Factory is an autonomous coding pipeline built on GitHub Actions. The repository owner labels
+Auto Software Factory is an autonomous coding pipeline built on GitHub Actions. The repository owner labels
 an issue. Claude Code, running headless (non-interactive, with no human at the keyboard), writes the
 change. Separate, isolated jobs build, test and check it, and a trusted job opens the pull request. The
 PR then merges by itself or waits for the owner, depending on a risk category that deterministic code
